@@ -209,7 +209,79 @@
             compatible = "zmk,behavior-tri-state";
             label = "SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LALT>, <&kp 1>, <&kt LALT>;
+            bindings = <&kt LALT>, <&kp N1>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win2: window_2 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N2>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win3: window_3 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N3>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win4: window_4 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N4>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win5: window_5 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N5>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win6: window_6 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N6>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win7: window_7 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N7>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win8: window_8 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N8>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win9: window_9 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N9>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
+        
+        win0: window_0 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp N0>, <&kt LALT>;
             ignored-key-positions = <1>;
         };
     };
@@ -331,7 +403,7 @@
               &kp ESC          &none          &none     &none     &none   &none                                                          &none         &none      &none      &none    &none            &none
         &mt LCTRL TAB          &kp X          &kp V     &kp L     &kp C   &kp W                                                          &kp K         &kp H      &kp G      &kp F    &kp Q  &mt RCTRL MINUS
                 &none          &kp U          &kp I     &kp A     &kp E   &kp O                                                          &kp S         &kp N      &kp R      &kp T    &kp D            &kp Z
-            &kp LSHFT       &kp LBKT       &kp SEMI   &kp SQT     &kp P   &kp Y   &none   &none  &win1   &none   &none      &none   &kp B         &kp M  &kp COMMA    &kp DOT    &kp J        &kp RSHFT
+            &kp LSHFT       &kp LBKT       &kp SEMI   &kp SQT     &kp P   &kp Y   &none   &none  &none   &none   &none      &none   &kp B         &kp M  &kp COMMA    &kp DOT    &kp J        &kp RSHFT
  &magic LAYER_Magic 0  &kp LG(LS(S))  &kp LG(LS(T))  &kp LGUI  &kp LALT           &mo 2   &mo 3       &none   &none   &mo 1  &kp SPACE          &kp LC(BSPC)   &kp RGUI  &kp K_APP  &kp RET            &none
             >;
         };
@@ -362,8 +434,8 @@
             bindings = <
            &trans        &trans        &trans      &trans         &trans                                                                              &trans   &trans   &trans   &trans  &trans
            &trans        &trans        &trans      &trans         &trans         &trans                                                       &trans  &trans   &trans   &trans   &trans  &trans
-       &kp LA(F4)        &trans        &trans      &trans         &trans         &trans                                                      &kp F14  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-      &kp LG(TAB)        &trans        &trans      &trans         &trans         &trans                                                      &kp F13  &kp F5   &kp F6   &kp F7   &kp F8  &trans
+       &kp LA(F4)        &win1        &win2      &win3         &win4         &win5                                                      &kp F14  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+      &kp LG(TAB)        &win6        &win7      &win8         &win9         &win0                                                      &kp F13  &kp F5   &kp F6   &kp F7   &kp F8  &trans
  &kp LG(LS(SEMI))  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &kp LG(PG_DN)  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(F15)  &kp F1   &kp F2   &kp F3   &kp F4  &trans
            &trans        &trans        &trans      &trans         &trans                 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &trans   &trans   &trans  &trans
             >;
