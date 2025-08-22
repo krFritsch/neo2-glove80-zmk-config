@@ -436,7 +436,7 @@
            &trans        &trans        &trans      &trans         &trans         &trans                                                       &trans  &trans   &trans   &trans   &trans  &trans
        &kp LA(F4)        &win1        &win2      &win3         &win4         &win5                                                      &kp F14  &kp F9  &kp F10  &kp F11  &kp F12  &trans
       &kp LG(TAB)        &win6        &win7      &win8         &win9         &win0                                                      &kp F13  &kp F5   &kp F6   &kp F7   &kp F8  &trans
- &kp LG(LS(SEMI))  &LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &LG(RIGHT_ARROW)  &kp LG(PG_DN)  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(F15)  &kp F1   &kp F2   &kp F3   &kp F4  &trans
+ &kp LG(LS(SEMI))  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(PG_DN)  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(F15)  &kp F1   &kp F2   &kp F3   &kp F4  &trans
            &trans        &trans        &trans      &trans         &trans                 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &trans   &trans   &trans  &trans
             >;
         };
