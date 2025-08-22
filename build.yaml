@@ -6,5 +6,4 @@
 #
 include:
 - board: glove80_lh
-  snippet: zmk-usb-logging
 - board: glove80_rh
