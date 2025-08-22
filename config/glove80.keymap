@@ -207,7 +207,7 @@
         };
         win1: window_1 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW1_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N1>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -215,7 +215,7 @@
         
         win2: window_2 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW2_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N2>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -223,7 +223,7 @@
         
         win3: window_3 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW3_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N3>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -231,7 +231,7 @@
         
         win4: window_4 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW4_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N4>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -239,7 +239,7 @@
         
         win5: window_5 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW5_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N5>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -247,7 +247,7 @@
         
         win6: window_6 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW6_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N6>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -255,7 +255,7 @@
         
         win7: window_7 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW7_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N7>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -263,7 +263,7 @@
         
         win8: window_8 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW8_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N8>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -271,7 +271,7 @@
         
         win9: window_9 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW9_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N9>, <&kt LGUI>;
             ignored-key-positions = <1>;
@@ -279,7 +279,7 @@
         
         win0: window_0 {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "WINDOW0_SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp N0>, <&kt LGUI>;
             ignored-key-positions = <1>;
