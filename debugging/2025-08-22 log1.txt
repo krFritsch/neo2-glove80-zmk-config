@@ -1,0 +1,215 @@
+[00:00:00.396,575] <dbg> zmk: behavior_macro_init: Precalculreleased: usage_page                                                                                                                                                                              0x07 keycode 0x28 implicit_mods 0x00 id_listener_keycode_released: usage_page 0                                                                                                                                                                             x07 keycode 0x28 implicit_mods 0x00 explicit_mods 0x00
+[00:01:18.624,572] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set                                                                                                                                                                              to 0x00
+[00:01:18.624,572] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:01:18.655,242] <dbg> zmk: kscan_matrix_read: Sending event at 3,6 state off
+[00:01:18.655,395] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 3, c                                                                                                                                                                             ol: 6, position: 69, pressed: false
+[00:01:18.655,426] <dbg> zmk: position_state_changed_listener: 69 bubble (no und                                                                                                                                                                             ecided hold_tap active)
+[00:01:18.655,487] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore                                                                                                                                                                              upstroke at position 69.
+[00:01:18.655,517] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 posit                                                                                                                                                                             ion: 69, binding name: momentary_layer
+[00:01:18.655,548] <dbg> zmk: mo_keymap_binding_released: position 69 layer 2
+[00:01:18.655,578] <dbg> zmk: set_layer_state: layer_changed: layer 2 state 0
+[00:02:29.098,480] <dbg> zmk: split_central_notify_func: [NOTIFICATION] data 0x2                                                                                                                                                                             000fc7b length 16
+[00:02:29.098,510] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,510] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,541] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,602] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,602] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,632] <dbg> zmk: split_central_notify_func: data: 2
+[00:02:29.098,632] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,632] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,663] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,693] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,693] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,724] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,724] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,754] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,754] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,754] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.098,968] <dbg> zmk: split_central_battery_level_notify_func: [BATTERY                                                                                                                                                                              LEVEL NOTIFICATION] data 0x2000fc7b length 1
+[00:02:29.098,968] <dbg> zmk: split_central_battery_level_notify_func: Battery l                                                                                                                                                                             evel: 76
+[00:02:29.099,060] <dbg> zmk: peripheral_event_work_callback: Trigger key positi                                                                                                                                                                             on state change for 41
+[00:02:29.099,090] <dbg> zmk: zmk_backlight_update: Update backlight brightness:                                                                                                                                                                              0%
+[00:02:29.099,151] <dbg> zmk: position_state_changed_listener: 41 bubble (no und                                                                                                                                                                             ecided hold_tap active)
+[00:02:29.099,243] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 posit                                                                                                                                                                             ion: 41, binding name: key_press
+[00:02:29.099,273] <dbg> zmk: on_keymap_binding_pressed: position 41 keycode 0x7                                                                                                                                                                             0011
+[00:02:29.099,304] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keyc                                                                                                                                                                             ode 0x11 implicit_mods 0x00 explicit_mods 0x00
+[00:02:29.099,304] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to                                                                                                                                                                              0x00
+[00:02:29.099,334] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:29.099,395] <dbg> zmk: peripheral_batt_lvl_change_callback: Triggering pe                                                                                                                                                                             ripheral battery level change 76
+[00:02:29.100,128] <dbg> zmk: vddh_sample_fetch: ADC raw 3179 ~ 4655 mV => 100%
+[00:02:29.248,504] <dbg> zmk: split_central_notify_func: [NOTIFICATION] data 0x2                                                                                                                                                                             000fc7b length 16
+[00:02:29.248,504] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,535] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,565] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,596] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,596] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,626] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,626] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,657] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,657] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,687] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,687] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,718] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,718] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,748] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,748] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,779] <dbg> zmk: split_central_notify_func: data: 0
+[00:02:29.248,870] <dbg> zmk: peripheral_event_work_callback: Trigger key positi                                                                                                                                                                             on state change for 41
+[00:02:29.248,901] <dbg> zmk: position_state_changed_listener: 41 bubble (no und                                                                                                                                                                             ecided hold_tap active)
+[00:02:29.248,901] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore                                                                                                                                                                              upstroke at position 41.
+[00:02:29.248,962] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 posit                                                                                                                                                                             ion: 41, binding name: key_press
+[00:02:29.248,992] <dbg> zmk: on_keymap_binding_released: position 41 keycode 0x                                                                                                                                                                             70011
+[00:02:29.249,023] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 key                                                                                                                                                                             code 0x11 implicit_mods 0x00 explicit_mods 0x00
+[00:02:29.249,053] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set                                                                                                                                                                              to 0x00
+[00:02:29.249,053] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:36.015,258] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state on
+[00:02:36.015,350] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, c                                                                                                                                                                             ol: 6, position: 70, pressed: true
+[00:02:36.015,380] <dbg> zmk: position_state_changed_listener: 70 bubble (no und                                                                                                                                                                             ecided hold_tap active)
+[00:02:36.015,441] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 posit                                                                                                                                                                             ion: 70, binding name: momentary_layer
+[00:02:36.015,472] <dbg> zmk: mo_keymap_binding_pressed: position 70 layer 3
+[00:02:36.015,472] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 1
+[00:02:37.242,218] <dbg> zmk: kscan_matrix_read: Sending event at 4,1 state on
+[00:02:37.242,340] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 1, position: 47, pressed: true
+[00:02:37.242,370] <dbg> zmk: position_state_changed_listener: 47 bubble (no undecided hold_tap active)
+[00:02:37.242,431] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 47, binding name: key_press
+[00:02:37.242,462] <dbg> zmk: on_keymap_binding_pressed: position 47 keycode 0x8070050
+[00:02:37.242,492] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keycode 0x50 implicit_mods 0x08 explicit_mods 0x0                                                                                                                                0
+[00:02:37.242,492] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to 0x08
+[00:02:37.242,523] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:37.435,241] <dbg> zmk: kscan_matrix_read: Sending event at 4,1 state off
+[00:02:37.435,363] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 1, position: 47, pressed: false
+[00:02:37.435,394] <dbg> zmk: position_state_changed_listener: 47 bubble (no undecided hold_tap active)
+[00:02:37.435,394] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 47.
+[00:02:37.435,455] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 47, binding name: key_press
+[00:02:37.435,485] <dbg> zmk: on_keymap_binding_released: position 47 keycode 0x8070050
+[00:02:37.435,516] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 keycode 0x50 implicit_mods 0x08 explicit_mods 0x                                                                                                                                00
+[00:02:37.435,546] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set to 0x00
+[00:02:37.435,546] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:37.605,255] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state off
+[00:02:37.605,377] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: false
+[00:02:37.605,407] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:37.605,438] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 70.
+[00:02:37.605,468] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:37.605,499] <dbg> zmk: mo_keymap_binding_released: position 70 layer 3
+[00:02:37.605,529] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 0
+[00:02:40.913,269] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state on
+[00:02:40.913,360] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: true
+[00:02:40.913,391] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:40.913,452] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:40.913,482] <dbg> zmk: mo_keymap_binding_pressed: position 70 layer 3
+[00:02:40.913,482] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 1
+[00:02:42.100,250] <dbg> zmk: kscan_matrix_read: Sending event at 4,5 state on
+[00:02:42.100,341] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 5, position: 51, pressed: true
+[00:02:42.100,372] <dbg> zmk: position_state_changed_listener: 51 bubble (no undecided hold_tap active)
+[00:02:42.100,433] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 51, binding name: key_press
+[00:02:42.100,463] <dbg> zmk: on_keymap_binding_pressed: position 51 keycode 0x807004E
+[00:02:42.100,494] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keycode 0x4E implicit_mods 0x08 explicit_mods 0x0                                                                                                                                0
+[00:02:42.100,494] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to 0x08
+[00:02:42.100,524] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:42.176,361] <dbg> zmk: kscan_matrix_read: Sending event at 4,5 state off
+[00:02:42.176,452] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 5, position: 51, pressed: false
+[00:02:42.176,513] <dbg> zmk: position_state_changed_listener: 51 bubble (no undecided hold_tap active)
+[00:02:42.176,513] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 51.
+[00:02:42.176,574] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 51, binding name: key_press
+[00:02:42.176,605] <dbg> zmk: on_keymap_binding_released: position 51 keycode 0x807004E
+[00:02:42.176,635] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 keycode 0x4E implicit_mods 0x08 explicit_mods 0x                                                                                                                                00
+[00:02:42.176,635] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set to 0x00
+[00:02:42.176,666] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:42.360,260] <dbg> zmk: kscan_matrix_read: Sending event at 4,4 state on
+[00:02:42.360,351] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 4, position: 50, pressed: true
+[00:02:42.360,382] <dbg> zmk: position_state_changed_listener: 50 bubble (no undecided hold_tap active)
+[00:02:42.360,443] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 50, binding name: key_press
+[00:02:42.360,473] <dbg> zmk: on_keymap_binding_pressed: position 50 keycode 0x807004F
+[00:02:42.360,504] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keycode 0x4F implicit_mods 0x08 explicit_mods 0x0                                                                                                                                0
+[00:02:42.360,504] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to 0x08
+[00:02:42.360,534] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:42.507,232] <dbg> zmk: kscan_matrix_read: Sending event at 4,4 state off
+[00:02:42.507,354] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 4, position: 50, pressed: false
+[00:02:42.507,385] <dbg> zmk: position_state_changed_listener: 50 bubble (no undecided hold_tap active)
+[00:02:42.507,385] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 50.
+[00:02:42.507,446] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 50, binding name: key_press
+[00:02:42.507,476] <dbg> zmk: on_keymap_binding_released: position 50 keycode 0x807004F
+[00:02:42.507,507] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 keycode 0x4F implicit_mods 0x08 explicit_mods 0x                                                                                                                                00
+[00:02:42.507,537] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set to 0x00
+[00:02:42.507,537] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:42.897,247] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state off
+[00:02:42.897,369] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: false
+[00:02:42.897,399] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:42.897,430] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 70.
+[00:02:42.897,460] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:42.897,491] <dbg> zmk: mo_keymap_binding_released: position 70 layer 3
+[00:02:42.897,521] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 0
+[00:02:44.734,252] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state on
+[00:02:44.734,344] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: true
+[00:02:44.734,375] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:44.734,436] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:44.734,466] <dbg> zmk: mo_keymap_binding_pressed: position 70 layer 3
+[00:02:44.734,466] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 1
+[00:02:44.997,222] <dbg> zmk: kscan_matrix_read: Sending event at 4,2 state on
+[00:02:44.997,344] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 2, position: 48, pressed: true
+[00:02:44.997,375] <dbg> zmk: position_state_changed_listener: 48 bubble (no undecided hold_tap active)
+[00:02:44.997,436] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 48, binding name: key_press
+[00:02:44.997,467] <dbg> zmk: on_keymap_binding_pressed: position 48 keycode 0x8070051
+[00:02:44.997,497] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keycode 0x51 implicit_mods 0x08 explicit_mods 0x0                                                                                                                                0
+[00:02:44.997,497] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to 0x08
+[00:02:44.997,528] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:45.149,230] <dbg> zmk: kscan_matrix_read: Sending event at 4,2 state off
+[00:02:45.149,353] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 2, position: 48, pressed: false
+[00:02:45.149,383] <dbg> zmk: position_state_changed_listener: 48 bubble (no undecided hold_tap active)
+[00:02:45.149,383] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 48.
+[00:02:45.149,444] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 48, binding name: key_press
+[00:02:45.149,475] <dbg> zmk: on_keymap_binding_released: position 48 keycode 0x8070051
+[00:02:45.149,505] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 keycode 0x51 implicit_mods 0x08 explicit_mods 0x                                                                                                                                00
+[00:02:45.149,536] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set to 0x00
+[00:02:45.149,536] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:45.332,244] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state off
+[00:02:45.332,366] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: false
+[00:02:45.332,397] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:45.332,427] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 70.
+[00:02:45.332,458] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:45.332,489] <dbg> zmk: mo_keymap_binding_released: position 70 layer 3
+[00:02:45.332,519] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 0
+[00:02:47.664,245] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state on
+[00:02:47.664,337] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: true
+[00:02:47.664,367] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:47.664,428] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:47.664,459] <dbg> zmk: mo_keymap_binding_pressed: position 70 layer 3
+[00:02:47.664,459] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 1
+[00:02:48.277,252] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state off
+[00:02:48.277,374] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: false
+[00:02:48.277,404] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:48.277,435] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 70.
+[00:02:48.277,465] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:48.277,496] <dbg> zmk: mo_keymap_binding_released: position 70 layer 3
+[00:02:48.277,526] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 0
+[00:02:49.652,252] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state on
+[00:02:49.652,343] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: true
+[00:02:49.652,374] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:49.652,435] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:49.652,465] <dbg> zmk: mo_keymap_binding_pressed: position 70 layer 3
+[00:02:49.652,465] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 1
+[00:02:49.986,236] <dbg> zmk: kscan_matrix_read: Sending event at 4,3 state on
+[00:02:49.986,358] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 3, position: 49, pressed: true
+[00:02:49.986,389] <dbg> zmk: position_state_changed_listener: 49 bubble (no undecided hold_tap active)
+[00:02:49.986,450] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 49, binding name: key_press
+[00:02:49.986,480] <dbg> zmk: on_keymap_binding_pressed: position 49 keycode 0x8070052
+[00:02:49.986,511] <dbg> zmk: hid_listener_keycode_pressed: usage_page 0x07 keycode 0x52 implicit_mods 0x08 explicit_mods 0x00
+[00:02:49.986,511] <dbg> zmk: zmk_hid_implicit_modifiers_press: Modifiers set to 0x08
+[00:02:49.986,541] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:50.082,214] <dbg> zmk: kscan_matrix_read: Sending event at 4,3 state off
+[00:02:50.082,336] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 3, position: 49, pressed: false
+[00:02:50.082,366] <dbg> zmk: position_state_changed_listener: 49 bubble (no undecided hold_tap active)
+[00:02:50.082,397] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 49.
+[00:02:50.082,427] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 3 position: 49, binding name: key_press
+[00:02:50.082,458] <dbg> zmk: on_keymap_binding_released: position 49 keycode 0x8070052
+[00:02:50.082,489] <dbg> zmk: hid_listener_keycode_released: usage_page 0x07 keycode 0x52 implicit_mods 0x08 explicit_mods 0x00
+[00:02:50.082,519] <dbg> zmk: zmk_hid_implicit_modifiers_release: Modifiers set to 0x00
+[00:02:50.082,519] <dbg> zmk: zmk_endpoints_send_report: usage page 0x07
+[00:02:50.207,244] <dbg> zmk: kscan_matrix_read: Sending event at 4,6 state off
+[00:02:50.207,366] <dbg> zmk: zmk_physical_layouts_kscan_process_msgq: Row: 4, col: 6, position: 70, pressed: false
+[00:02:50.207,397] <dbg> zmk: position_state_changed_listener: 70 bubble (no undecided hold_tap active)
+[00:02:50.207,427] <dbg> zmk: tap_dance_position_state_changed_listener: Ignore upstroke at position 70.
+[00:02:50.207,458] <dbg> zmk: zmk_keymap_apply_position_state: layer_id: 0 position: 70, binding name: momentary_layer
+[00:02:50.207,489] <dbg> zmk: mo_keymap_binding_released: position 70 layer 3
+[00:02:50.207,519] <dbg> zmk: set_layer_state: layer_changed: layer 3 state 0
+
