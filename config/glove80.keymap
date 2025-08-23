@@ -380,7 +380,7 @@
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <LAYER_SYM LAYER_NAV>;
-            then-layer = <3>;
+            then-layer = <LAYER_GREEK>;
         };
     };
 };
