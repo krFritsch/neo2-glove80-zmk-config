@@ -1,15 +1,15 @@
 # My ZMK keymap
 
-Default readme from the template: [README from template.md](./README from template.md)
+Default readme from the template: README from template.md
 
 ## Basic Alpha and Symbol layout: NEO2
 The basis for the layout is the [neo2 layout](https://www.neo-layout.org/)
 
 ## Thumbcluser usage
+I want to use only two keys from the thumb cluster regularly, the outermost ones on the bottom row. The other ones are too far away for comfortable regular usage. 
 ### Single key actions
 
 There these 4 actions:
-
 | Combination | Action |
 | ----------|----------|
 | X _ $~~$ _ _ | Navigation & Numpad   |
@@ -17,37 +17,35 @@ There these 4 actions:
 | _ _ $~~$ X _ | Symbols    |
 | _ _ $~~$ _ X | Space bar    |
 
-### Dual key actions (held in sequence)
+### Dual key actions
+In can go to more layers by holding down two thumb keys at the same time. Requirements are:
+* I don't want to overload shift on the right hand --> only Symbol layer key can be used
+* The order in which the modifiers are pressed should not matter
+* I want to use the conditional layers feature of ZMK to implement this
+* The layer keys must be on opposite hands. I only allow on key from the left thumb cluster + one key from the right thumb cluster
+* These combinations are quite easy to press and leaves digits 2-5 free for typing. It would be a good idea to use them for layer switching instead of single key presses
 
-There are these 8 where both keys are on opposite hands. Note that the order in wich the keys are pressed is important!
+These are the remaining Combinations:
 
 | Combination |Primary Layer | Action |
 | ----------|----------|----------|
-| 1 _ $~~$ 2 _ | Navigation & Numpad | **unassigned**    |
-| 1 _ $~~$ _ 2 | Navigation & Numpad | *unavailable¹*    |
-| _ 1 $~~$ 2 _ | Window management | Fancy Zones    |
-| _ 1 $~~$ _ 2 | Window management | **unassigned**    |
-| 2 _ $~~$ 1 _ | Symbols | greek layer     |
-| _ 2 $~~$ 1 _ | Symbols |  Keyboard management  |
-| 2 _ $~~$ _ 1 | Space bar | *unavailable²*    |
-| _ 2 $~~$ _ 1 | Space bar | *unavailable²*    |
+| X _ $~~$ X _ | Navigation & Numpad | **unassigned**    |
+| X _ $~~$ _ X | Navigation & Numpad | *unavailable¹*    |
+| _ X $~~$ X _ | Window management | Fancy Zones  |
+| _ X $~~$ _ X | Window management | *unavailable¹*  |
 
-¹ Numpad 0 is on the thumb cluster <br>
-² First key is actually the spacebar
+greek 
+keyboard management
 
-=> I have 4 viable combinations available.
-
-These combinations are quite easy to press and leaves digits 2-5 free for typing. It would be a good idea to use them for layer switching instead of single key presses
+¹ This would include the spacebar <br>
 
 ## Unicode symbols
 
 # F-Keys usage
-
-
 | Combination | Action |
 | ----------|----------|
 | F13 |  Mousless Overlay  |
-| F14 |  WinCompose compose key  |
+| F14 |  WinCompose compose key (legacy from my QMK setup, might not be necessary anymore) |
 | F15 |  PowerToys Windows Command Palette  |
 | F16 |  unassigned  |
 | F17 |  unassigned  |
