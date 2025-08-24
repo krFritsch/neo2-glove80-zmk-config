@@ -12,5 +12,7 @@ manifest:
     - name: zmk-tri-state
       remote: dhruvinsh
       revision: main
+    - name: zmk-unicode
+      remote: urob
   self:
     path: config
