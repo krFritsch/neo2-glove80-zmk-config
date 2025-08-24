@@ -293,6 +293,86 @@
     };
 };
 
+
+/* greek letters */ 
+#define GK_alp	 0x03B1  	// alpha 		(α)
+#define GK_ALP 	 0x0391  	// Alpha 		(Α)
+#define GK_bet   0x03B2 	// beta 		(β)
+#define GK_BET   0x0392 	// Beta 		(Β)
+#define GK_gam	 0x03B3  	// gamma 		(γ)
+#define GK_GAM 	 0x0393  	// Gamma 		(Γ)
+#define GK_del   0x03B4 	// delta 		(δ)
+#define GK_DEL   0x0394 	// Delta 		(Δ)
+#define GK_eps	 0x03B5  	// epsilon 		(ε)
+#define GK_EPS 	 0x0395  	// Epsilon 		(Ε)
+#define GK_zet   0x03B6 	// zeta 		(ζ)
+#define GK_ZET   0x0396 	// Zeta 		(Ζ)
+#define GK_eta	 0x03B7  	// eta 			(η)
+#define GK_ETA	 0x0397  	// Eta 			(Η)
+#define GK_vth 	 0x03D1 	// vartheta		(ϑ)
+#define GK_VTH 	 0x03F4 	// VarTheta		(ϴ)
+#define GK_the   0x03B8 	// theta 		(θ)
+#define GK_THE   0x0398 	// Theta 		(Θ)
+#define GK_iot	 0x03B9  	// iota 		(ι)
+#define GK_IOT 	 0x0399  	// Iota 		(Ι)
+#define GK_kap   0x03BA 	// kappa 		(κ)
+#define GK_KAP   0x039A 	// Kappa 		(Κ)
+#define GK_lam	 0x03BB  	// lambda 		(λ)
+#define GK_LAM 	 0x039B  	// Lambda 		(Λ)
+#define GK_mu	 0x03BC 	// mu 			(μ)
+#define GK_MU  	 0x039C 	// Mu 			(Μ)
+#define GK_nu	 0x03BD 	// nu 			(ν)
+#define GK_NU  	 0x039D 	// Nu 			(Ν)
+#define GK_xi	 0x03BE 	// xi 			(ξ)
+#define GK_XI  	 0x039E 	// Xi 			(Ξ)
+#define GK_omi   0x03BF 	// omicron 		(ο)
+#define GK_OMI	 0x039F 	// Omicron 		(Ο)
+#define GK_pi	 0x03C0 	// pi 			(π)
+#define GK_PI  	 0x03A0 	// Pi 			(Π)
+#define GK_vrh   0x03F1 	// varrho 		(ϱ)
+#define GK_rho	 0x03C1 	// rho 			(ρ)
+#define GK_RHO   0x03A1 	// Rho 			(Ρ)
+#define GK_fsi 	 0x03C2 	// final sigma 	(ς) no capital version
+#define GK_sig	 0x03C3 	// sigma 		(σ)
+#define GK_SIG	 0x03A3 	// Sigma 		(Σ)
+#define GK_tau	 0x03C4 	// tau 			(τ)
+#define GK_TAU   0x03A4 	// Tau 			(Τ)
+#define GK_ups   0x03C5 	// upsilon 		(υ)
+#define GK_UPS	 0x03A5 	// Upsilon 		(Υ)
+#define GK_vph	 0x03D5 	// varphi 		(ϕ) no capital version
+#define GK_phi	 0x03C6 	// phi 			(φ)
+#define GK_PHI   0x03A6 	// Phi 			(Φ)
+#define GK_chi	 0x03C7 	// chi 			(χ)
+#define GK_CHI   0x03A7 	// Chi 			(Χ)
+#define GK_psi	 0x03C8 	// psi 			(ψ)
+#define GK_PSI   0x03A8 	// Psi 			(Ψ)
+#define GK_ome	 0x03C9 	// omega 		(ω)
+#define GK_OME	 0x03A9 	// Omega 		(Ω)
+
+/* subscript */
+#define SUB_0   0x2080 	  // subscript 0
+#define SUB_1   0x2081 	  // subscript 1
+#define SUB_2   0x2082 	  // subscript 2
+#define SUB_3   0x2083 	  // subscript 3
+#define SUB_4   0x2084 	  // subscript 4
+#define SUB_5   0x2085 	  // subscript 5
+#define SUB_6   0x2086 	  // subscript 6
+#define SUB_7   0x2087 	  // subscript 7
+#define SUB_8   0x2088 	  // subscript 8
+#define SUB_9   0x2089 	  // subscript 9
+
+/* superscript */
+#define SUP_0   0x2070 	  // superscript 0
+#define SUP_1   0x00B9 	  // superscript 1
+#define SUP_2   0x00B2 	  // superscript 2
+#define SUP_3   0x00B3 	  // superscript 3
+#define SUP_4   0x2074 	  // superscript 4
+#define SUP_5   0x2075 	  // superscript 5
+#define SUP_6   0x2076 	  // superscript 6
+#define SUP_7   0x2077 	  // superscript 7
+#define SUP_8   0x2078 	  // superscript 8
+#define SUP_9   0x2079 	  // superscript 9
+
 /* #define for key positions */
 #define POS_LH_T1 52
 #define POS_LH_T2 53
@@ -468,7 +548,7 @@
        &none            &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &none
        &none            &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none           &none
        &none  &none  &none  &none  &none  &none                                                         &none   &none   &none   &none   &none           &none
-       &none  &none  &none  &uc 0x03B1 0x0391 &none  &none                                                         &none   &none   &none   &none   &none     &none
+       &none  &none  &none  &uc GK_alp GK_ALP &none  &none                                                         &none   &none   &none   &none   &none     &none
        &none            &none            &none            &none            &none            &none   &none   &none         &none   &none   &none   &none   &none   &none   &none   &none   &none      &none
        &none            &none            &none            &none            &none                    &none   &none  &none   &none   &none   &none           &none   &none   &none   &none           &none
             >;
