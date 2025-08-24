@@ -452,7 +452,7 @@
             >;
         };
 
-layer_Greek {
+layer_GREEK {
             bindings = <
        &none            &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &none
        &none            &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none           &none
