@@ -29,7 +29,7 @@ These are the remaining Combinations:
 
 | Combination |Primary Layer | Action |
 | ----------|----------|----------|
-| X _ $~~$ X _ | Navigation & Numpad | **unassigned**    |
+| X _ $~~$ X _ | Navigation & Numpad | Greek letters |
 | X _ $~~$ _ X | Navigation & Numpad | *unavailable¹*    |
 | _ X $~~$ X _ | Window management | Fancy Zones  |
 | _ X $~~$ _ X | Window management | *unavailable¹*  |
@@ -46,7 +46,8 @@ keyboard management
 | ----------|----------|
 | F13 |  Mousless Overlay  |
 | F14 |  WinCompose compose key (legacy from my QMK setup, might not be necessary anymore) |
-| F15 |  PowerToys Windows Command Palette  |
+| WIN+F15 |  PowerToys Windows Command Palette  |
+| WIN+SHIFT+F15 | window walker|
 | F16 |  unassigned  |
 | F17 |  unassigned  |
 | F18 |  unassigned  |
