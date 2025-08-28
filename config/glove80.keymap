@@ -20,6 +20,12 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <behaviors/unicode.dtsi>
 
+
+/* Mouse emulation */
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#include <dt-bindings/zmk/pointing.h>
+
 /* On demand includes */
 
 
@@ -590,12 +596,12 @@
 
         layer_MOUSE {
             bindings = <
-            &none  &none  &none  &none  &none                                                                    &none   &none   &none   &none  &none
-            &none  &none  &none  &none  &none  &none                                                     &none   &none   &none   &none   &none  &none
-            &none  &none  &none  &none  &none  &none                                                     &none   &none   &none   &none   &none  &none
-            &none  &none  &none  &none  &none  &none                                                     &none   &none   &none   &none   &none  &none
-            &none  &none  &none  &none  &none  &none   &none   &none  &none /*|*/  &none  &none  &none   &none   &none   &none   &none   &none  &none
-            &none  &none  &none  &none  &none          &none   &none  &none /*|*/  &none  &none  &none           &none   &none   &none   &none  &none
+            &none  &none  &none          &none          &none                                                                                     &none            &none           &none            &none  &none
+            &none  &none  &none          &none          &none            &none                                                            &none   &none            &none           &none            &none  &none
+            &none  &none  &mkp MB4       &mmv MOVE_UP   &mkp MB5         &none                                                            &none   &none            &msc SCRL_UP    &none            &none  &none
+            &none  &none  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT  &none                                                            &none   &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
+            &none  &none  &none          &none          &none            &none   &mkp MCLK  &none      &none /*|*/  &none  &none  &none   &none   &none            &none           &none            &none  &none
+            &none  &none  &none          &none          &none                    &mkp LCLK  &mkp RCLK  &none /*|*/  &none  &none  &none           &none            &none           &none            &none  &none
             >;
         };
 
