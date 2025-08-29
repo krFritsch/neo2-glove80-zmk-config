@@ -1,0 +1,815 @@
+layout: {zmk_keyboard: glove80}
+layers:
+  Base:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: TAB, h: LCTRL}
+  - X
+  - V
+  - L
+  - C
+  - W
+  - K
+  - H
+  - G
+  - F
+  - Q
+  - {t: '-', h: RCTRL}
+  - ''
+  - U
+  - I
+  - A
+  - E
+  - O
+  - S
+  - N
+  - R
+  - T
+  - D
+  - Z
+  - LSHFT
+  - '['
+  - ;
+  - ''''
+  - P
+  - Y
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MOUSE
+  - B
+  - M
+  - ','
+  - .
+  - J
+  - RSHFT
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - Gui+Sft+S
+  - Gui+Sft+T
+  - LGUI
+  - LALT
+  - NAV
+  - WNDWMGMT
+  - ''
+  - ''
+  - SYM
+  - SPACE
+  - Ctl+BSPC
+  - RGUI
+  - APP
+  - RET
+  - ''
+  SYM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AltGr+E
+  - Sft+/
+  - AltGr+8
+  - AltGr+9
+  - '`'
+  - Sft+1
+  - '|'
+  - Sft+|
+  - Sft+0
+  - Sft+6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AltGr+-
+  - Sft+7
+  - AltGr+7
+  - AltGr+0
+  - Sft+]
+  - Sft+-
+  - Sft+8
+  - Sft+9
+  - /
+  - Sft+.
+  - AltGr+Q
+  - {t: ▽, type: trans}
+  - Sft+3
+  - \
+  - Sft+4
+  - AltGr+|
+  - AltGr+]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ']'
+  - Sft+5
+  - Sft+2
+  - Sft+\
+  - Sft+,
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SUB
+  - SUP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NAV:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - BSPC
+  - UP
+  - DEL
+  - PG DN
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - LEFT
+  - DOWN
+  - RIGHT
+  - END
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - ','
+  - .
+  - {t: ▽, type: trans}
+  - ESC
+  - TAB
+  - INS
+  - RET
+  - Ctl+Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+.
+  - KP 1
+  - KP 2
+  - KP 3
+  - Sft+,
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  WNDWMGMT:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+F4
+  - '&win1'
+  - '&win2'
+  - '&win3'
+  - '&win4'
+  - '&win5'
+  - Gui+Sft+F15
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - Gui+TAB
+  - '&win6'
+  - '&win7'
+  - '&win8'
+  - '&win9'
+  - '&win0'
+  - F13
+  - F5
+  - F6
+  - F7
+  - F8
+  - {t: ▽, type: trans}
+  - Gui+Sft+;
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+UP ARROW
+  - Gui+RIGHT ARROW
+  - Gui+PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+F15
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GREEK:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x3BE 0x39E'
+  - ''
+  - '&uc 0x3BB 0x39B'
+  - '&uc 0x3C7 0x3A7'
+  - '&uc 0x3C9 0x3A9'
+  - '&uc 0x3BA 0x39A'
+  - '&uc 0x3C8 0x3A8'
+  - '&uc 0x3B3 0x393'
+  - '&uc 0x3C6 0x3A6'
+  - '&uc 0x3D5 0'
+  - '&uc 0x3C2 0'
+  - ''
+  - ''
+  - '&uc 0x3B9 0x399'
+  - '&uc 0x3B1 0x391'
+  - '&uc 0x3B5 0x395'
+  - '&uc 0x3BF 0x39F'
+  - '&uc 0x3C3 0x3A3'
+  - '&uc 0x3BD 0x39D'
+  - '&uc 0x3C1 0x3A1'
+  - '&uc 0x3C4 0x3A4'
+  - '&uc 0x3B4 0x394'
+  - '&uc 0x3C5 0x3A5'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '&uc 0x3B7 0x397'
+  - '&uc 0x3C0 0x3A0'
+  - '&uc 0x3B6 0x396'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x3B2 0x392'
+  - '&uc 0x3BC 0x39C'
+  - '&uc 0x3F1 0'
+  - '&uc 0x3B8 0x398'
+  - '&uc 0x3D1 0x3F4'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  SUP:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x2077 0'
+  - '&uc 0x2078 0'
+  - '&uc 0x2079 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x2074 0'
+  - '&uc 0x2075 0'
+  - '&uc 0x2076 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x00B9 0'
+  - '&uc 0x00B2 0'
+  - '&uc 0x00B3 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&uc 0x2070 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  SUB:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x2087 0'
+  - '&uc 0x2088 0'
+  - '&uc 0x2089 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x2084 0'
+  - '&uc 0x2085 0'
+  - '&uc 0x2086 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&uc 0x2081 0'
+  - '&uc 0x2082 0'
+  - '&uc 0x2083 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&uc 0x2080 0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  FNCYZNS: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '']
+  MOUSE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB4'
+  - '&mmv MOVE_UP'
+  - '&mkp MB5'
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  GAMING:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LSHIFT
+  - A
+  - S
+  - D
+  - E
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LCTL
+  - Z
+  - X
+  - C
+  - V
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SPACE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Magic:
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB BRI
+  - RGB TOG
+  - VOL UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB BRD
+  - RGB EFF
+  - VOL DN
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bt_2'
+  - '&bt_3'
+  - F14
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - Sft+PAUSE BREAK
+  - '&bt_0'
+  - '&bt_1'
+  - OUT USB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
