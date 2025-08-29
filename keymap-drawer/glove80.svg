@@ -1,4 +1,4 @@
-<svg width="1068" height="5790" viewBox="0 0 1068 5790" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2136" height="3183" viewBox="0 0 2136 3183" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style>/* inherit to force styles through use tags */
 svg path {
     fill: inherit;
@@ -123,7 +123,18 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-</style>
+
+@media (prefers-color-scheme: dark) {
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+}</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
@@ -433,7 +444,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 521)" class="layer-SYM">
+<g transform="translate(1098, 0)" class="layer-SYM">
 <text x="0" y="28" class="label" id="SYM">SYM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
@@ -759,7 +770,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1042)" class="layer-NAV">
+<g transform="translate(30, 521)" class="layer-NAV">
 <text x="0" y="28" class="label" id="NAV">NAV:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
@@ -1109,7 +1120,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1564)" class="layer-WNDWMGMT">
+<g transform="translate(1098, 521)" class="layer-WNDWMGMT">
 <text x="0" y="28" class="label" id="WNDWMGMT">WNDWMGMT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
@@ -1447,7 +1458,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2085)" class="layer-GREEK">
+<g transform="translate(30, 1042)" class="layer-GREEK">
 <text x="0" y="28" class="label" id="GREEK">GREEK:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -1778,7 +1789,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2606)" class="layer-SUP">
+<g transform="translate(1098, 1042)" class="layer-SUP">
 <text x="0" y="28" class="label" id="SUP">SUP:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -2053,7 +2064,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3127)" class="layer-SUB">
+<g transform="translate(30, 1564)" class="layer-SUB">
 <text x="0" y="28" class="label" id="SUB">SUB:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -2328,7 +2339,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3649)" class="layer-FNCYZNS">
+<g transform="translate(1098, 1564)" class="layer-FNCYZNS">
 <text x="0" y="28" class="label" id="FNCYZNS">FNCYZNS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -2573,7 +2584,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 4170)" class="layer-MOUSE">
+<g transform="translate(30, 2085)" class="layer-MOUSE">
 <text x="0" y="28" class="label" id="MOUSE">MOUSE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -2857,7 +2868,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 4691)" class="layer-GAMING">
+<g transform="translate(1098, 2085)" class="layer-GAMING">
 <text x="0" y="28" class="label" id="GAMING">GAMING:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -3126,7 +3137,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 5212)" class="layer-Magic">
+<g transform="translate(30, 2606)" class="layer-Magic">
 <text x="0" y="28" class="label" id="Magic">Magic:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
@@ -3434,4 +3445,4 @@ path.combo {
 </g>
 </g>
 </g>
-</svg>
+<text x="2106.0" y="3155.0" class="footer">Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>
