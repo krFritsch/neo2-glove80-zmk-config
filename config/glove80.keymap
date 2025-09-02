@@ -568,7 +568,7 @@
             &none  &none  &none  &none  &none  &none                                                          &none   &none        &none        &none        &none  &none
             &none  &none  &none  &none  &none  &none                                                          &none   &uc SUP_7 0  &uc SUP_8 0  &uc SUP_9 0  &none  &none
             &none  &none  &none  &none  &none  &none                                                          &none   &uc SUP_4 0  &uc SUP_5 0  &uc SUP_6 0  &none  &none
-            &none  &none  &none  &none  &none  &none   &none   &none  &none /*|*/  &none  &none  &none        &none   &uc SUP_1 0  &uc SUP_2 0  &uc SUP_3 0  &none  &none
+            &none  &none  &none  &none  &none  &none   &none   &none  &kp A /*|*/  &none  &none  &none        &none   &uc SUP_1 0  &uc SUP_2 0  &uc SUP_3 0  &none  &none
             &none  &none  &none  &none  &none          &none   &none  &none /*|*/  &none  &none  &uc SUP_0 0          &none        &none        &none        &none  &none
             >;
         };
