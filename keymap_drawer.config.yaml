@@ -63,7 +63,7 @@ parse_config:
     '&uc SUP_7 0': '_⁷'
     '&uc SUP_8 0': '_⁸'
     '&uc SUP_9 0': '_⁹'
-    '&uc UP(0x3BE, 0x3BE)'  : 'ξ'
+    '&uc UP(0x3BE, 0x3BE)': 'ξ'
     '&uc UP(0x3BB, 0x3BB)': 'λ'
     '&uc UP(0x3C7, 0x3C7)': 'χ'
     '&uc UP(0x3C9, 0x3C9)': 'ω'
