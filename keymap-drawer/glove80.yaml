@@ -34,7 +34,7 @@ layers:
   - G
   - F
   - Q
-  - {t: '-', h: RCTRL}
+  - {t: ß, h: RCTRL}
   - ''
   - U
   - I
