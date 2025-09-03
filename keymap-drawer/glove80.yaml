@@ -731,7 +731,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&game_off'
   Magic:
   - BT CLR
   - ''
@@ -784,7 +784,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&game_on'
   - '&bt_2'
   - '&bt_3'
   - F14
