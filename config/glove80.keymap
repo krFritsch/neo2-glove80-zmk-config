@@ -113,7 +113,7 @@
       bindings = <&to LAYER_Base>, <&rgb_ug RGB_COLOR_HSB(210,100,60)>;   // back to blue
     };
     };
-}
+};
 
 
 / {
