@@ -40,9 +40,9 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map: 
-    'DE_UDIA': 'Ü'
-    'DE_ODIA': 'Ö'
-    'DE_ADIA': 'Ä'
+    '&kp DE_UDIA': 'Ü'
+    '&kp DE_ODIA': 'Ö'
+    '&kp DE_ADIA': 'Ä'
     '&uc SUB_0 0': '_₀'
     '&uc SUB_1 0': '_₁'
     '&uc SUB_2 0': '_₂'
