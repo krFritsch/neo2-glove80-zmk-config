@@ -105,46 +105,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AltGr+E
-  - Sft+/
-  - AltGr+8
-  - AltGr+9
-  - '`'
-  - Sft+1
-  - '|'
-  - Sft+|
-  - Sft+0
-  - Sft+6
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AltGr+-
-  - Sft+7
-  - AltGr+7
-  - AltGr+0
-  - Sft+]
-  - Sft+-
-  - Sft+8
-  - Sft+9
-  - /
-  - Sft+.
-  - AltGr+Q
-  - Sft+3
-  - \
-  - Sft+4
-  - AltGr+|
-  - AltGr+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - €
+  - _
+  - '['
   - ']'
-  - Sft+5
-  - Sft+2
-  - Sft+\
-  - Sft+,
+  - ^
+  - '!'
+  - <
+  - '>'
+  - '='
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - /
+  - '{'
+  - '}'
+  - '*'
+  - '?'
+  - (
+  - )
+  - '-'
+  - ':'
+  - '@'
+  - §
+  - '#'
+  - $
+  - '|'
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - '%'
+  - '"'
+  - ''''
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,11 +221,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+.
+  - ':'
   - KP 1
   - KP 2
   - KP 3
-  - Sft+,
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
