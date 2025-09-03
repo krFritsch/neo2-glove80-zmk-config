@@ -104,13 +104,13 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       wait-ms = <0>; tap-ms = <0>;
-      bindings = <&to LAYER_GAMING>, <&rgb_ug RGB_COLOR_HSB(0,100,80)>;   // go red
+      bindings = <&to LAYER_GAMING>, <&rgb_ug RGB_COLOR_HSB(17,73,80)>;   // go red
     };
     game_off: game_off {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       wait-ms = <0>; tap-ms = <0>;
-      bindings = <&to LAYER_Base>, <&rgb_ug RGB_COLOR_HSB(210,100,60)>;   // back to blue
+      bindings = <&to LAYER_Base>, <&rgb_ug RGB_COLOR_HSB(200,41,75)>;   // back to blue
     };
     };
 };
