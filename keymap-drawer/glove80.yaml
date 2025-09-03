@@ -128,12 +128,12 @@ layers:
   - /
   - Sft+.
   - AltGr+Q
-  - {t: ▽, type: trans}
   - Sft+3
   - \
   - Sft+4
   - AltGr+|
   - AltGr+]
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
