@@ -549,7 +549,7 @@
             &kp ESC               &none          &none          &none       &none   &none                                                                                           &none  &none         &none      &none      &none    &none
             &mt LCTRL TAB         &kp X          &kp V          &kp L       &kp C   &kp W                                                                                           &kp K  &kp H         &kp G      &kp F      &kp Q    &mt RCTRL MINUS
             &none                 &kp U          &kp I          &kp A       &kp E   &kp O                                                                                           &kp S  &kp N         &kp R      &kp T      &kp D    &kp Z
-            &kp LSHFT             &kp DE_ADIA    &kp DE_ODIA    &kp DE_ADIA &kp P   &kp Y   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA  &kp DOT    &kp J    &kp RSHFT
+            &kp LSHFT             &kp DE_UDIA    &kp DE_ODIA    &kp DE_ADIA &kp P   &kp Y   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA  &kp DOT    &kp J    &kp RSHFT
             &magic LAYER_Magic 0  &kp LG(LS(S))  &kp LG(LS(T))  &kp LGUI    &kp LALT        &mo LAYER_NAV  &mo LAYER_WNDWMGMT  &none  /*|*/  &none  &mo LAYER_SYM  &kp SPACE               &kp LC(BSPC)  &kp RGUI   &kp K_APP  &kp RET  &none
             >;
         };
