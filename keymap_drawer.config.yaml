@@ -213,8 +213,7 @@ parse_config:
     GT: '>'
     QUESTION: '?'
     QUES: '?'
-  zmk_remove_keycode_prefix:
-  - DE_
+  zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     EXCLAMATION: '!'
     EXCL: '!'
@@ -280,7 +279,7 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    SS: 'ß'
+    MINUS: 'ß'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
