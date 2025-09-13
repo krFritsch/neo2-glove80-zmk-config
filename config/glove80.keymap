@@ -653,8 +653,8 @@
             bindings = <
             &none              &none               &none              &none              &none                                                                                             &none   &none   &none   &none  &none
             &none              &none               &none              &none              &none              &none                                                                  &none   &none   &none   &none   &none  &none
-            &none              &kp LS(LG(LA(N1)))  &kp LS(LG(LA(N2))) &kp LS(LG(LA(N3))) &kp LS(LG(LA(N4))) &kp LS(LG(LA(N5)))                                                     &none   &none   &none   &none   &none  &none
-            &none              &kp LS(LG(LA(N6)))  &kp LS(LG(LA(N7))) &kp LS(LG(LA(N8))) &kp LS(LG(LA(N9))) &kp LS(LG(LA(N0)))                                                     &none   &none   &none   &none   &none  &none
+            &none              &kp LC(LG(LA(N1)))  &kp LC(LG(LA(N2))) &kp LC(LG(LA(N3))) &kp LC(LG(LA(N4))) &kp LC(LG(LA(N5)))                                                     &none   &none   &none   &none   &none  &none
+            &none              &kp LC(LG(LA(N6)))  &kp LC(LG(LA(N7))) &kp LC(LG(LA(N8))) &kp LC(LG(LA(N9))) &kp LC(LG(LA(N0)))                                                     &none   &none   &none   &none   &none  &none
             &kp LG(LS(SEMI))   &none               &none              &none              &none              &none                &none   &none  &none /*|*/  &none  &none  &none   &none   &none   &none   &none   &none  &none
             &none              &none               &none              &none              &none                                   &none   &none  &none /*|*/  &none  &none  &none           &none   &none   &none   &none  &none
             >;
