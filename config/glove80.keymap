@@ -574,18 +574,18 @@
             &trans     &kp RA(E)      &kp LS(FSLH)  &kp RA(N8)           &kp RA(N9)           &kp GRAVE                                                            &kp LS(N1)     &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp LS(N0)    &kp LS(N6)     &trans
             &trans     &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)           &kp RA(N0)           &kp LS(RBKT)                                                         &kp LS(MINUS)  &kp LS(N8)       &kp LS(N9)           &kp FSLH      &kp LS(DOT)    &kp DE_AT
             &kp LS(N3) &kp BSLH       &kp LS(N4)    &kp RA(NON_US_BSLH)  &kp RA(RBKT)         &trans        &trans  &trans  &trans  /*|*/  &trans  &trans  &trans  &kp RBKT       &kp LS(N5)       &kp LS(N2)           &kp LS(BSLH)  &kp LS(COMMA)  &trans
-            &trans     &trans         &trans        &mo LAYER_SUB        &mo LAYER_SUP                      &trans  &trans  &trans  /*|*/  &trans  &trans  &trans                 &trans           &trans               &trans        &trans         &trans
+            &trans     &trans         &trans        &none                &none                              &trans  &trans  &trans  /*|*/  &trans  &trans  &trans                 &trans           &trans               &trans        &trans         &trans
             >;
         };
 
         layer_NAV {
             bindings = <
-            &trans  &trans     &trans    &trans    &trans                                                                                       &trans     &trans     &trans     &trans         &trans
-            &trans  &trans     &trans    &trans    &trans     &trans                                                               &trans       &trans     &trans     &trans     &trans         &trans
-            &trans  &kp PG_UP  &kp BSPC  &kp UP    &kp DEL    &kp PG_DN                                                            &trans       &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS    &trans
-            &trans  &kp HOME   &kp LEFT  &kp DOWN  &kp RIGHT  &kp END                                                              &trans       &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp COMMA      &kp DOT
-            &trans  &kp ESC    &kp TAB   &kp INS   &kp RET    &kp LC(Y)  &trans  &trans  &trans  /*|*/  &trans  &trans  &trans     &kp LS(DOT)  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(COMMA)  &trans
-            &trans  &trans     &trans    &trans    &trans                &trans  &trans  &trans  /*|*/  &trans  &trans  &kp KP_N0               &trans     &trans     &trans     &trans         &trans
+            &trans  &trans     &trans    &trans         &trans                                                                                       &trans     &trans     &trans     &trans         &trans
+            &trans  &trans     &trans    &trans         &trans     &trans                                                               &trans       &trans     &trans     &trans     &trans         &trans
+            &trans  &kp PG_UP  &kp BSPC  &kp UP         &kp DEL    &kp PG_DN                                                            &trans       &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS    &trans
+            &trans  &kp HOME   &kp LEFT  &kp DOWN       &kp RIGHT  &kp END                                                              &trans       &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp COMMA      &kp DOT
+            &trans  &kp ESC    &kp TAB   &kp INS        &kp RET    &kp LC(Y)  &trans  &trans  &trans  /*|*/  &trans  &trans  &trans     &kp LS(DOT)  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(COMMA)  &trans
+            &trans  &trans     &trans    &mo LAYER_SUB  &mo LAYER_SUP         &trans  &trans  &trans  /*|*/  &trans  &trans  &kp KP_N0               &trans     &trans     &trans     &trans         &trans
             >;
         };
 
