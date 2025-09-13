@@ -603,12 +603,12 @@
 
         layer_GREEK {
             bindings = <
-            &none  &none            &none                &none              &none                                                                                                        &none               &none              &none              &none  &none
-            &none  &none            &none                &none              &none              &none                                                                  &none              &none               &none              &none              &none  &none
-            &none  &uc GK_xi GK_XI  &none                &uc GK_lam GK_LAM  &uc GK_chi GK_CHI  &uc GK_ome GK_OME                                                      &uc GK_kap GK_KAP  &uc GK_psi GK_PSI   &uc GK_gam GK_GAM  &uc GK_phi GK_PHI  &uc GK_vph 0       &uc GK_fsi 0
-            &none  &none            &uc GK_iot GK_IOT    &uc GK_alp GK_ALP  &uc GK_eps GK_EPS  &uc GK_omi GK_OMI                                                      &uc GK_sig GK_SIG  &uc GK_nu GK_NU     &uc GK_rho GK_RHO  &uc GK_tau GK_TAU  &uc GK_del GK_DEL  &uc GK_ups GK_UPS
-            &trans &none            &none                &uc GK_eta GK_ETA  &uc GK_pi GK_PI    &uc GK_zet GK_ZET  &none  &none   &none /*|*/  &none   &none   &none   &uc GK_bet GK_BET  &uc GK_mu GK_MU     &uc GK_vrh 0       &uc GK_the GK_THE  &uc GK_vth GK_VTH  &trans
-            &none  &none            &none                &none              &none                                 &none  &none   &none /*|*/  &none   &none   &none                      &none               &none              &none              &none  &none
+            &none     &none            &none                &none              &none                                                                                                        &none               &none              &none              &none              &none
+            &none     &none            &none                &none              &none              &none                                                                  &none              &none               &none              &none              &none              &none
+            &none     &uc GK_xi GK_XI  &none                &uc GK_lam GK_LAM  &uc GK_chi GK_CHI  &uc GK_ome GK_OME                                                      &uc GK_kap GK_KAP  &uc GK_psi GK_PSI   &uc GK_gam GK_GAM  &uc GK_phi GK_PHI  &uc GK_vph 0       &uc GK_fsi 0
+            &none     &none            &uc GK_iot GK_IOT    &uc GK_alp GK_ALP  &uc GK_eps GK_EPS  &uc GK_omi GK_OMI                                                      &uc GK_sig GK_SIG  &uc GK_nu GK_NU     &uc GK_rho GK_RHO  &uc GK_tau GK_TAU  &uc GK_del GK_DEL  &uc GK_ups GK_UPS
+            &kp LSHFT &none            &none                &uc GK_eta GK_ETA  &uc GK_pi GK_PI    &uc GK_zet GK_ZET  &none  &none   &none /*|*/  &none   &none   &none   &uc GK_bet GK_BET  &uc GK_mu GK_MU     &uc GK_vrh 0       &uc GK_the GK_THE  &uc GK_vth GK_VTH  &kp RSHFT
+            &none     &none            &none                &none              &none                                 &none  &none   &none /*|*/  &none   &none   &none                      &none               &none              &none              &none              &none
             >;
         };
 
