@@ -430,6 +430,8 @@
 #define DE_UDIA  LBKT            // ü
 #define DE_SS    MINUS           // ß
 #define DE_DEG   LS(GRAVE)       // °
+#define DE_Y     Z               // Y
+#define DE_Z     Y               // Z
 
 /* #define for key positions */
 #define POS_LH_T1 52
@@ -559,12 +561,12 @@
 
         layer_Base {
             bindings = <
-            &none                 &none          &none          &none       &none                                                                                                          &none         &none      &none      &none    &none
-            &kp ESC               &none          &none          &none       &none   &none                                                                                           &none  &none         &none      &none      &none    &none
-            &mt LCTRL TAB         &kp X          &kp V          &kp L       &kp C   &kp W                                                                                           &kp K  &kp H         &kp G      &kp F      &kp Q    &mt RCTRL DE_SS
-            &none                 &kp U          &kp I          &kp A       &kp E   &kp O                                                                                           &kp S  &kp N         &kp R      &kp T      &kp D    &kp Z
-            &kp LSHFT             &kp DE_UDIA    &kp DE_ODIA    &kp DE_ADIA &kp P   &kp Y   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA  &kp DOT    &kp J    &kp RSHFT
-            &magic LAYER_Magic 0  &kp LG(LS(S))  &kp LG(LS(T))  &kp LGUI    &kp LALT        &mo LAYER_NAV  &mo LAYER_WNDWMGMT  &none  /*|*/  &none  &mo LAYER_SYM  &kp SPACE               &kp LC(BSPC)  &kp RGUI   &kp K_APP  &kp RET  &none
+            &none                 &none          &none          &none       &none                                                                                                             &none         &none      &none      &none    &none
+            &kp ESC               &none          &none          &none       &none   &none                                                                                              &none  &none         &none      &none      &none    &none
+            &mt LCTRL TAB         &kp X          &kp V          &kp L       &kp C   &kp W                                                                                              &kp K  &kp H         &kp G      &kp F      &kp Q    &mt RCTRL DE_SS
+            &none                 &kp U          &kp I          &kp A       &kp E   &kp O                                                                                              &kp S  &kp N         &kp R      &kp T      &kp D    &kp DE_Y
+            &kp LSHFT             &kp DE_UDIA    &kp DE_ODIA    &kp DE_ADIA &kp P   &kp DE_Z   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA  &kp DOT    &kp J    &kp RSHFT
+            &magic LAYER_Magic 0  &kp LG(LS(S))  &kp LG(LS(T))  &kp LGUI    &kp LALT           &mo LAYER_NAV  &mo LAYER_WNDWMGMT  &none  /*|*/  &none  &mo LAYER_SYM  &kp SPACE               &kp LC(BSPC)  &kp RGUI   &kp K_APP  &kp RET  &none
             >;
         };
 
