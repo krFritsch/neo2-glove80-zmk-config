@@ -591,11 +591,11 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+Gui+Alt+1
-  - Sft+Gui+Alt+2
-  - Sft+Gui+Alt+3
-  - Sft+Gui+Alt+4
-  - Sft+Gui+Alt+5
+  - Ctl+Gui+Alt+1
+  - Ctl+Gui+Alt+2
+  - Ctl+Gui+Alt+3
+  - Ctl+Gui+Alt+4
+  - Ctl+Gui+Alt+5
   - ''
   - ''
   - ''
@@ -603,11 +603,11 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+Gui+Alt+6
-  - Sft+Gui+Alt+7
-  - Sft+Gui+Alt+8
-  - Sft+Gui+Alt+9
-  - Sft+Gui+Alt+0
+  - Ctl+Gui+Alt+6
+  - Ctl+Gui+Alt+7
+  - Ctl+Gui+Alt+8
+  - Ctl+Gui+Alt+9
+  - Ctl+Gui+Alt+0
   - ''
   - ''
   - ''
