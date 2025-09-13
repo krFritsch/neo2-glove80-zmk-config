@@ -104,7 +104,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - °
   - €
   - _
   - '['
@@ -149,8 +149,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SUB
-  - SUP
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,8 +230,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SUB
+  - SUP
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -475,11 +475,11 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
   - _⁰
   - ''
   - ''
@@ -556,11 +556,11 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
   - _₀
   - ''
   - ''
