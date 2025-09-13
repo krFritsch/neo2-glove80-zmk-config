@@ -123,6 +123,8 @@ parse_config:
     '&kp DE_SQT': "'"      
     '&kp DE_SEMI': ';'
     '&kp DE_DEG': '°'  
+    '&kp DE_Z': 'Z'
+    '&kp DE_Y': 'Y'
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
