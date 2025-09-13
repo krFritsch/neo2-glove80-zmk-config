@@ -591,11 +591,11 @@ layers:
   - ''
   - ''
   - ''
-  - '&LS(LG(LA(N1)))'
-  - '&LS(LG(LA(N2)))'
-  - '&LS(LG(LA(N3)))'
-  - '&LS(LG(LA(N4)))'
-  - '&LS(LG(LA(N5)))'
+  - Sft+Gui+Alt+1
+  - Sft+Gui+Alt+2
+  - Sft+Gui+Alt+3
+  - Sft+Gui+Alt+4
+  - Sft+Gui+Alt+5
   - ''
   - ''
   - ''
@@ -603,18 +603,18 @@ layers:
   - ''
   - ''
   - ''
-  - '&LS(LG(LA(N6)))'
-  - '&LS(LG(LA(N7)))'
-  - '&LS(LG(LA(N8)))'
-  - '&LS(LG(LA(N9)))'
-  - '&LS(LG(LA(N0)))'
+  - Sft+Gui+Alt+6
+  - Sft+Gui+Alt+7
+  - Sft+Gui+Alt+8
+  - Sft+Gui+Alt+9
+  - Sft+Gui+Alt+0
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - '&LG(LS(SEMI))'
+  - Gui+Sft+;
   - ''
   - ''
   - ''
