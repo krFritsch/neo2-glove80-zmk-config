@@ -43,8 +43,9 @@ keyboard management
 
 
 ## F-Keys and F-Keys combination usage
-<details open>
+<details>
 <summary> List of how I assigend function keys and their modifier combitanios </summary>
+  
 | Combination | Action |
 | ----------|----------|
 | F13 |  Mousless Overlay  |
@@ -60,4 +61,5 @@ keyboard management
 | F22 |  unassigned  |
 | F23 |  unassigned  |
 | F24 |  unassigned  |
+
 </details>
