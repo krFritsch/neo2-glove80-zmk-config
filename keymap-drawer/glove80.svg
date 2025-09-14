@@ -578,13 +578,17 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&amp;</text>
 </g>
-<g transform="translate(980, 168)" class="key trans keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(980, 168)" class="key keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">&amp;uc</tspan><tspan x="0" dy="1.2em">0x2300</tspan><tspan x="0" dy="1.2em">0x2300</tspan>
+</text>
 </g>
-<g transform="translate(28, 224)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 224)" class="key keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">&amp;uc</tspan><tspan x="0" dy="1.2em">0x00B1</tspan><tspan x="0" dy="1.2em">0x00B1</tspan>
+</text>
 </g>
 <g transform="translate(84, 224)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

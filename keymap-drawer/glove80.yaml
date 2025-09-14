@@ -115,8 +115,8 @@ layers:
   - '>'
   - '='
   - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&uc 0x2300 0x2300'
+  - '&uc 0x00B1 0x00B1'
   - \
   - /
   - '{'
