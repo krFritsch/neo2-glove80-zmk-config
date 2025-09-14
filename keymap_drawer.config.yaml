@@ -91,6 +91,7 @@ parse_config:
     '&uc GK_vrh 0': 'ϱ'
     '&uc GK_the GK_THE': 'θ'
     '&uc GK_vth GK_VTH': 'ϑ'
+    '&uc DE_BTICK DE_BTICK': '`'
     '&kp DE_EURO': '€'      
     '&kp DE_UNDER': '_'      
     '&kp DE_LBKT': '['     
