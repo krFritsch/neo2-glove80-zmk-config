@@ -433,6 +433,8 @@
 #define DE_Y     Z               // Y
 #define DE_Z     Y               // Z
 #define DE_BTICK 0x0060          // ` (must be used with wincompose)
+#define DE_DIA   0x2300          // ⌀
+#define DE_PM    0x00B1          // ±
 
 /* #define for key positions */
 #define POS_LH_T1 52
@@ -586,12 +588,12 @@
 
         layer_SYM {
             bindings = <
-            &trans     &trans         &trans        &trans               &trans                                                                                                              &trans           &trans               &trans        &trans         &trans
-            &trans     &trans         &trans        &trans               &trans               &trans                                                                          &trans         &trans           &trans               &trans        &trans         &trans
-            &kp DE_DEG &kp RA(E)      &kp LS(FSLH)  &kp RA(N8)           &kp RA(N9)           &kp GRAVE                                                                       &kp LS(N1)     &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp LS(N0)    &kp LS(N6)     &trans
-            &trans     &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)           &kp RA(N0)           &kp LS(RBKT)                                                                    &kp LS(MINUS)  &kp LS(N8)       &kp LS(N9)           &kp FSLH      &kp LS(DOT)    &kp DE_AT
-            &kp LS(N3) &kp BSLH       &kp LS(N4)    &kp RA(NON_US_BSLH)  &kp RA(RBKT)         &uc DE_BTICK DE_BTICK    &trans  &trans  &trans  /*|*/  &trans  &trans  &trans  &kp RBKT       &kp LS(N5)       &kp LS(N2)           &kp LS(BSLH)  &kp LS(COMMA)  &trans
-            &trans     &trans         &trans        &none                &none                                         &trans  &trans  &trans  /*|*/  &trans  &trans  &trans                 &trans           &trans               &trans        &trans         &trans
+            &trans                  &trans         &trans        &trans               &trans                                                                                                              &trans           &trans               &trans        &trans         &trans
+            &trans                  &trans         &trans        &trans               &trans               &trans                                                                          &trans         &trans           &trans               &trans        &trans         &trans
+            &kp DE_DEG              &kp RA(E)      &kp LS(FSLH)  &kp RA(N8)           &kp RA(N9)           &kp GRAVE                                                                       &kp LS(N1)     &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp LS(N0)    &kp LS(N6)     &uc DE_DIA DE_DIA
+            &uc DE_PM DE_PM         &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)           &kp RA(N0)           &kp LS(RBKT)                                                                    &kp LS(MINUS)  &kp LS(N8)       &kp LS(N9)           &kp FSLH      &kp LS(DOT)    &kp DE_AT
+            &kp LS(N3)              &kp BSLH       &kp LS(N4)    &kp RA(NON_US_BSLH)  &kp RA(RBKT)         &uc DE_BTICK DE_BTICK    &trans  &trans  &trans  /*|*/  &trans  &trans  &trans  &kp RBKT       &kp LS(N5)       &kp LS(N2)           &kp LS(BSLH)  &kp LS(COMMA)  &trans
+            &trans                  &trans         &trans        &none                &none                                         &trans  &trans  &trans  /*|*/  &trans  &trans  &trans                 &trans           &trans               &trans        &trans         &trans
             >;
         };
 
