@@ -40,12 +40,25 @@ keyboard management
 ¹ This would include the spacebar <br>
 
 ## Unicode symbols
+I want to be able to type unicode directly from different layers on the keyboard. Mainly for greek letters, super and subscript, e.g.: λ₀, τ².....
+<details>
+<summary>I use WinCompose and urob's [ZMK-UNICODE](https://github.com/urob/zmk-unicode)</summary>
+  
+In the *.keymap file, add:
+```
+&uc {
+  default-mode = <UC_MODE_WIN_COMPOSE>;  // Default to WinCompose input system
+  win-compose-key = <F14>;        // Overwrite WinCompose compose key
+};
+```
+
+</details>
 
 
 ## F-Keys and F-Keys combination usage
 <details>
-<summary> List of how I assigend function keys and their modifier combinations </summary>
-
+<summary> List of how I assigend function keys and their modifier combitanios </summary>
+  
 | Combination | Action |
 | ----------|----------|
 | F13 |  Mousless Overlay  |
