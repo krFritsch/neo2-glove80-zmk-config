@@ -43,6 +43,7 @@ keyboard management
 I want to be able to type unicode directly from different layers on the keyboard. Mainly for greek letters, super and subscript, e.g.: λ₀, τ².....
 <details>
 <summary>I use WinCompose and urob's [ZMK-UNICODE](https://github.com/urob/zmk-unicode)</summary>
+  
 In the *.keymap file, add:
 ```
 &uc {
@@ -50,6 +51,7 @@ In the *.keymap file, add:
   win-compose-key = <F14>;        // Overwrite WinCompose compose key
 };
 ```
+
 </details>
 
 
