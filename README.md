@@ -41,13 +41,16 @@ keyboard management
 
 ## Unicode symbols
 
-# F-Keys usage
+
+## F-Keys and F-Keys combination usage
+<details open>
+<summary> List of how I assigend function keys and their modifier combitanios </summary>
 | Combination | Action |
 | ----------|----------|
 | F13 |  Mousless Overlay  |
-| F14 |  WinCompose compose key (legacy from my QMK setup, might not be necessary anymore) |
-| WIN+F15 |  PowerToys Windows Command Palette  |
-| WIN+SHIFT+F15 | window walker|
+| F14 |  WinCompose compose key |
+| WIN+F15 |  PowerToys Command Palette  |
+| WIN+SHIFT+F15 | PowerToys Window Walker |
 | F16 |  unassigned  |
 | F17 |  unassigned  |
 | F18 |  unassigned  |
@@ -57,3 +60,4 @@ keyboard management
 | F22 |  unassigned  |
 | F23 |  unassigned  |
 | F24 |  unassigned  |
+</details>
