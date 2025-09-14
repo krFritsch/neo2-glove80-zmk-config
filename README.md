@@ -40,9 +40,10 @@ keyboard management
 ¹ This would include the spacebar <br>
 
 ## Unicode symbols
-I want to be able to type unicode directly from different layers on the keyboard. Mainly for greek letters, super and subscript, e.g.: λ₀, τ².....
+I want to be able to type unicode directly from different layers on the keyboard. Mainly for greek letters, super and subscript, e.g.: λ₀, τ²..... I use WinCompose and urob's [ZMK-UNICODE](https://github.com/urob/zmk-unicode)
+
 <details>
-<summary>I use WinCompose and urob's [ZMK-UNICODE](https://github.com/urob/zmk-unicode)</summary>
+<summary> Details </summary>
   
 In the *.keymap file, add:
 ```
@@ -51,6 +52,12 @@ In the *.keymap file, add:
   win-compose-key = <F14>;        // Overwrite WinCompose compose key
 };
 ```
+
+In the keymap, put the following code:
+```
+&uc 0x3BF 0x39F
+```
+The second code is the one that gets processed when shifted.
 
 </details>
 
