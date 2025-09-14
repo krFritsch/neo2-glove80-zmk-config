@@ -561,7 +561,7 @@
 
 
 &uc {
-  default-mode = <UC_MODE_WIN_COMPOSE>;  // Default to Linux input system
+  default-mode = <UC_MODE_WIN_COMPOSE>;  // Default to WinCompose input system
   win-compose-key = <F14>;        // Overwrite WinCompose compose key
 };
 
