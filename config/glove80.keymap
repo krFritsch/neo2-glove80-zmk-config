@@ -532,13 +532,6 @@
             if-layers = <LAYER_SYM LAYER_NAV>;
             then-layer = <LAYER_GREEK>;
         };
-    };
-};
-
-/* SYM and WNDWMGMT goes to FNCYZNS */
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <LAYER_SYM LAYER_WNDWMGMT>;
             then-layer = <LAYER_FNCYZNS>;
