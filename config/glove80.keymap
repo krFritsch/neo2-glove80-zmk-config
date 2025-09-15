@@ -528,11 +528,11 @@
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        tri_layer {
+        condition_greeks {
             if-layers = <LAYER_SYM LAYER_NAV>;
             then-layer = <LAYER_GREEK>;
         };
-        tri_layer {
+        condition_fncyzns {
             if-layers = <LAYER_SYM LAYER_WNDWMGMT>;
             then-layer = <LAYER_FNCYZNS>;
         };
