@@ -23,7 +23,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: TAB, h: LCTRL}
+  - TAB
   - X
   - V
   - L
@@ -34,20 +34,20 @@ layers:
   - G
   - F
   - Q
-  - {t: ß, h: RCTRL}
+  - ß
   - ''
-  - U
-  - I
-  - A
-  - E
+  - {t: U, h: LGUI}
+  - {t: I, h: LALT}
+  - {t: A, h: LCTRL}
+  - {t: E, h: LSFT}
   - O
   - S
-  - N
-  - R
-  - T
-  - D
+  - {t: N, h: LSFT}
+  - {t: R, h: LCTRL}
+  - {t: T, h: LALT}
+  - {t: D, h: LGUI}
   - Y
-  - LSHFT
+  - ''
   - Ü
   - Ö
   - Ä
@@ -64,12 +64,12 @@ layers:
   - ','
   - .
   - J
-  - RSHFT
+  - ''
   - {t: '&rgb_ug_status_macro', h: Magic}
   - Gui+Sft+S
   - Gui+Sft+T
-  - LGUI
-  - LALT
+  - ''
+  - ''
   - NAV
   - WNDWMGMT
   - ''
@@ -77,7 +77,7 @@ layers:
   - SYM
   - SPACE
   - Ctl+BSPC
-  - RGUI
+  - ''
   - APP
   - RET
   - ''
