@@ -611,8 +611,8 @@
             &none                 &none          &none          &none           &none                                                                                                                 &none         &none           &none       &none           &none
             &none                 &none          &none          &none           &none       &none                                                                                              &none  &none         &none           &none       &none           &none
             &kp TAB               &kp X          &kp V          &kp L           &kp C       &kp W                                                                                              &kp K  &kp H         &kp G           &kp F       &kp Q           &kp DE_SS
-            &none                 &hml LGUI U    &hml LALT I    &hml LCTRL A    &kp E       &kp O                                                                                              &kp S  &kp N   &hmr LCTRL R    &hmr LALT T &hmr LGUI D     &kp DE_Y
-            &none                 &kp DE_UDIA    &kp DE_ODIA    &kp DE_ADIA     &kp P       &kp DE_Z   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA       &kp DOT     &kp J           &none
+            &none                 &hml LGUI U    &hml LALT I    &hml LCTRL A    &kp E       &kp O                                                                                              &kp S  &kp N         &hmr LCTRL R    &hmr LALT T &hmr LGUI D     &kp DE_Y
+            &kp LSHFT             &kp DE_UDIA    &kp DE_ODIA    &kp DE_ADIA     &kp P       &kp DE_Z   &none          &none               &none  /*|*/  &none  &none          &mo LAYER_MOUSE  &kp B  &kp M         &kp COMMA       &kp DOT     &kp J           &kp LSHFT
             &magic LAYER_Magic 0  &kp LG(LS(S))  &kp LG(LS(T))  &none           &none                  &mo LAYER_NAV  &mo LAYER_WNDWMGMT  &none  /*|*/  &none  &mo LAYER_SYM  &kp SPACE               &kp LC(BSPC)  &none           &kp K_APP   &kp RET         &none
             >;
         };
@@ -634,7 +634,7 @@
             &trans      &trans     &trans    &trans         &trans     &trans                                                               &trans       &trans     &trans     &trans     &trans         &trans
             &trans      &kp PG_UP  &kp BSPC  &kp UP         &kp DEL    &kp PG_DN                                                            &trans       &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS    &trans
             &trans      &kp HOME   &kp LEFT  &kp DOWN       &kp RIGHT  &kp END                                                              &trans       &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp COMMA      &kp DOT
-            &&kp LSHFT  &kp ESC    &kp TAB   &kp INS        &kp RET    &kp LC(Y)  &trans  &trans  &trans  /*|*/  &trans  &trans  &trans     &kp LS(DOT)  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(COMMA)  &kp RSHFT
+            &kp LSHFT  &kp ESC    &kp TAB   &kp INS        &kp RET    &kp LC(Y)  &trans  &trans  &trans  /*|*/  &trans  &trans  &trans     &kp LS(DOT)  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(COMMA)  &kp RSHFT
             &trans      &trans     &trans    &mo LAYER_SUB  &mo LAYER_SUP         &trans  &trans  &trans  /*|*/  &trans  &trans  &kp KP_N0               &trans     &trans     &trans     &trans         &trans
             >;
         };
