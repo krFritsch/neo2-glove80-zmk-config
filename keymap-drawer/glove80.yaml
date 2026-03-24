@@ -39,10 +39,10 @@ layers:
   - {t: U, h: LGUI}
   - {t: I, h: LALT}
   - {t: A, h: LCTRL}
-  - {t: E, h: LSFT}
+  - E
   - O
   - S
-  - {t: N, h: LSFT}
+  - N
   - {t: R, h: LCTRL}
   - {t: T, h: LALT}
   - {t: D, h: LGUI}
@@ -209,7 +209,7 @@ layers:
   - KP 6
   - ','
   - .
-  - {t: ▽, type: trans}
+  - LSHFT
   - ESC
   - TAB
   - INS
@@ -226,7 +226,7 @@ layers:
   - KP 2
   - KP 3
   - ;
-  - {t: ▽, type: trans}
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
