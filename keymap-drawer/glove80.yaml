@@ -47,7 +47,7 @@ layers:
   - {t: T, h: LALT}
   - {t: D, h: LGUI}
   - Y
-  - ''
+  - LSHFT
   - Ü
   - Ö
   - Ä
@@ -64,7 +64,7 @@ layers:
   - ','
   - .
   - J
-  - ''
+  - LSHFT
   - {t: '&rgb_ug_status_macro', h: Magic}
   - Gui+Sft+S
   - Gui+Sft+T
