@@ -289,7 +289,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: ▽, type: trans}
+  - Gui+F12
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
