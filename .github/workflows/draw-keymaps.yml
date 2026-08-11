@@ -37,8 +37,11 @@ jobs:
 
       - name: Draw per-layer SVGs
         run: |
+          # single-column canvas and no footer for the per-layer images
+          yq e '.draw_config.n_columns = 1 | .draw_config.footer_text = ""' \
+            keymap_drawer.config.yaml > /tmp/layer_config.yaml
           yq e '.layers | keys | .[]' keymap-drawer/glove80.yaml | while read -r layer; do
-            keymap -c keymap_drawer.config.yaml draw keymap-drawer/glove80.yaml \
+            keymap -c /tmp/layer_config.yaml draw keymap-drawer/glove80.yaml \
               -s "$layer" -o "keymap-drawer/glove80_${layer}.svg"
           done
 
