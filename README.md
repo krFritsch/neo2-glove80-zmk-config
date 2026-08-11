@@ -7,6 +7,8 @@ The basis for the layout is the [neo2 layout](https://www.neo-layout.org/)
 
 ## Layout overview
 
+**➡️ [Interactive tabbed view](https://krfritsch.github.io/neo2-glove80-zmk-config/)** — one tab per layer, like on neo-layout.org.
+
 Drawn automatically with [keymap-drawer](https://github.com/caksoylar/keymap-drawer) on every keymap change. Click a layer to expand it.
 
 ![Base layer](keymap-drawer/glove80_Base.svg)

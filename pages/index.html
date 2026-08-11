@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glove80 NEO2 keymap</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>⌨️</text></svg>">
+<style>
+  :root {
+    --bg: #f4f6f8;
+    --card: #ffffff;
+    --text: #1c2733;
+    --muted: #5c6b7a;
+    --accent: #0e7a6f;
+    --accent-text: #ffffff;
+    --tab-bg: #e4e9ee;
+    --tab-hover: #d5dde4;
+    --border: #d0d8e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12181f;
+      --card: #1b232c;
+      --text: #e6edf3;
+      --muted: #94a3b3;
+      --accent: #17a08f;
+      --accent-text: #06211d;
+      --tab-bg: #242f3a;
+      --tab-hover: #2e3b48;
+      --border: #33404d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    padding: 1.5rem 1.5rem 0.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
+  header p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  header a { color: var(--accent); }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 2rem;
+  }
+  nav.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  nav.tabs button {
+    appearance: none;
+    border: 1px solid var(--border);
+    background: var(--tab-bg);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  nav.tabs button:hover { background: var(--tab-hover); }
+  nav.tabs button[aria-selected="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-text);
+    font-weight: 600;
+  }
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+  .panel img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-width: 700px;
+  }
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Glove80 NEO2 keymap</h1>
+  <p>ZMK layout based on <a href="https://www.neo-layout.org/">neo2</a> —
+     drawn with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>,
+     updated automatically from
+     <a href="https://github.com/krFritsch/neo2-glove80-zmk-config">the keymap source</a>.</p>
+</header>
+<main>
+  <nav class="tabs" role="tablist" aria-label="Keymap layers" id="tabs"></nav>
+  <div class="panel">
+    <img id="layer-img" src="glove80_Base.svg" alt="Keymap layer diagram">
+  </div>
+</main>
+<footer>
+  Click a tab to switch layers. Each diagram links directly, e.g. <code>#NAV</code>.
+</footer>
+<script>
+  // Display names for known layers; anything not listed falls back to its raw name.
+  const NICE_NAMES = {
+    Base: "Base",
+    SYM: "Symbols",
+    NAV: "Navigation & Numpad",
+    WNDWMGMT: "Window management",
+    GREEK: "Greek letters",
+    SUP: "Superscript",
+    SUB: "Subscript",
+    FNCYZNS: "FancyZones",
+    MOUSE: "Mouse",
+    GAMING: "Gaming",
+    Magic: "Magic",
+  };
+  const ALL = "__all__";
+
+  const tabsEl = document.getElementById("tabs");
+  const imgEl = document.getElementById("layer-img");
+
+  function select(layer, layers) {
+    if (!layers.includes(layer) && layer !== ALL) layer = layers[0];
+    for (const btn of tabsEl.children) {
+      btn.setAttribute("aria-selected", String(btn.dataset.layer === layer));
+    }
+    if (layer === ALL) {
+      imgEl.src = "glove80.svg";
+      imgEl.alt = "All keymap layers";
+    } else {
+      imgEl.src = "glove80_" + layer + ".svg";
+      imgEl.alt = (NICE_NAMES[layer] || layer) + " layer";
+    }
+    history.replaceState(null, "", layer === layers[0] ? "#" : "#" + layer);
+  }
+
+  fetch("layers.json")
+    .then(r => r.json())
+    .catch(() => Object.keys(NICE_NAMES))
+    .then(layers => {
+      for (const layer of [...layers, ALL]) {
+        const btn = document.createElement("button");
+        btn.role = "tab";
+        btn.dataset.layer = layer;
+        btn.textContent = layer === ALL ? "All layers" : (NICE_NAMES[layer] || layer);
+        btn.addEventListener("click", () => select(layer, layers));
+        tabsEl.appendChild(btn);
+      }
+      const fromHash = decodeURIComponent(location.hash.slice(1));
+      select(fromHash || layers[0], layers);
+      window.addEventListener("hashchange", () => {
+        select(decodeURIComponent(location.hash.slice(1)) || layers[0], layers);
+      });
+    });
+</script>
+</body>
+</html>

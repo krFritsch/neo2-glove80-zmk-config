@@ -56,3 +56,14 @@ jobs:
             git commit -m "keymap-drawer render (per-layer SVGs)"
             git push
           fi
+
+  # Redeploy the GitHub Pages keymap site with the fresh SVGs (main only).
+  # Needed here because commits made with GITHUB_TOKEN don't trigger other workflows.
+  deploy-pages:
+    needs: draw-layers
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy-pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
