@@ -20,3 +20,50 @@ jobs:
       output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+
+  # Draw one SVG per layer (used by the per-layer overview in the README)
+  draw-layers:
+    needs: draw
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}  # branch tip, including the commit made by the draw job
+
+      - name: Install keymap-drawer
+        run: pipx install keymap-drawer
+
+      - name: Draw per-layer SVGs
+        run: |
+          # single-column canvas and no footer for the per-layer images
+          yq e '.draw_config.n_columns = 1 | .draw_config.footer_text = ""' \
+            keymap_drawer.config.yaml > /tmp/layer_config.yaml
+          yq e '.layers | keys | .[]' keymap-drawer/glove80.yaml | while read -r layer; do
+            keymap -c /tmp/layer_config.yaml draw keymap-drawer/glove80.yaml \
+              -s "$layer" -o "keymap-drawer/glove80_${layer}.svg"
+          done
+
+      - name: Commit updated per-layer SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add keymap-drawer/glove80_*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to per-layer SVGs"
+          else
+            git commit -m "keymap-drawer render (per-layer SVGs)"
+            git push
+          fi
+
+  # Redeploy the GitHub Pages keymap site with the fresh SVGs (main only).
+  # Needed here because commits made with GITHUB_TOKEN don't trigger other workflows.
+  deploy-pages:
+    needs: draw-layers
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy-pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

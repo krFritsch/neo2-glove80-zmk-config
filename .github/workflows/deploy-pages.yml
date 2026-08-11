@@ -1,0 +1,46 @@
+name: Deploy keymap site to GitHub Pages
+on:
+  workflow_dispatch:   # manual deploy
+  workflow_call:       # called by draw-keymaps.yml after SVGs are updated
+  push:
+    branches: [main]
+    paths:
+      - "pages/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # always deploy latest main, including SVG commits made by the draw jobs
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp pages/index.html _site/
+          cp keymap-drawer/glove80.svg keymap-drawer/glove80_*.svg _site/
+          yq -o=json '.layers | keys' keymap-drawer/glove80.yaml > _site/layers.json
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true  # try to enable Pages automatically on first run
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

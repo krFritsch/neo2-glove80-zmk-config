@@ -5,6 +5,80 @@ Default readme from the template: README from template.md
 ## Basic Alpha and Symbol layout: NEO2
 The basis for the layout is the [neo2 layout](https://www.neo-layout.org/)
 
+## Layout overview
+
+**➡️ [Interactive tabbed view](https://krfritsch.github.io/neo2-glove80-zmk-config/)** — one tab per layer, like on neo-layout.org.
+
+Drawn automatically with [keymap-drawer](https://github.com/caksoylar/keymap-drawer) on every keymap change. Click a layer to expand it.
+
+![Base layer](keymap-drawer/glove80_Base.svg)
+
+<details><summary>🔣 Symbols (SYM)</summary>
+
+![SYM layer](keymap-drawer/glove80_SYM.svg)
+
+</details>
+
+<details><summary>🧭 Navigation &amp; Numpad (NAV)</summary>
+
+![NAV layer](keymap-drawer/glove80_NAV.svg)
+
+</details>
+
+<details><summary>🪟 Window management (WNDWMGMT)</summary>
+
+![WNDWMGMT layer](keymap-drawer/glove80_WNDWMGMT.svg)
+
+</details>
+
+<details><summary>🇬🇷 Greek letters (GREEK)</summary>
+
+![GREEK layer](keymap-drawer/glove80_GREEK.svg)
+
+</details>
+
+<details><summary>⁴ Superscript (SUP)</summary>
+
+![SUP layer](keymap-drawer/glove80_SUP.svg)
+
+</details>
+
+<details><summary>₄ Subscript (SUB)</summary>
+
+![SUB layer](keymap-drawer/glove80_SUB.svg)
+
+</details>
+
+<details><summary>🗔 FancyZones (FNCYZNS)</summary>
+
+![FNCYZNS layer](keymap-drawer/glove80_FNCYZNS.svg)
+
+</details>
+
+<details><summary>🖱️ Mouse (MOUSE)</summary>
+
+![MOUSE layer](keymap-drawer/glove80_MOUSE.svg)
+
+</details>
+
+<details><summary>🎮 Gaming (GAMING)</summary>
+
+![GAMING layer](keymap-drawer/glove80_GAMING.svg)
+
+</details>
+
+<details><summary>🪄 Magic</summary>
+
+![Magic layer](keymap-drawer/glove80_Magic.svg)
+
+</details>
+
+<details><summary>🗺️ All layers in one image</summary>
+
+![Full keymap](keymap-drawer/glove80.svg)
+
+</details>
+
 ## Thumbcluser usage
 I want to use only two keys from the thumb cluster regularly, the outermost ones on the bottom row. The other ones are too far away for comfortable regular usage. 
 ### Single key actions
