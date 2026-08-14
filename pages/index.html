@@ -83,11 +83,18 @@
     padding: 1rem;
     overflow-x: auto;
   }
-  .panel img {
+  .panel svg {
     display: block;
     width: 100%;
     height: auto;
     min-width: 700px;
+  }
+  .panel text.layer-link {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .panel text.layer-link:hover {
+    opacity: 0.6;
   }
   footer {
     max-width: 1200px;
@@ -109,12 +116,11 @@
 </header>
 <main>
   <nav class="tabs" role="tablist" aria-label="Keymap layers" id="tabs"></nav>
-  <div class="panel">
-    <img id="layer-img" src="glove80_Base.svg" alt="Keymap layer diagram">
-  </div>
+  <div class="panel" id="panel" aria-live="polite"></div>
 </main>
 <footer>
-  Click a tab to switch layers. Each diagram links directly, e.g. <code>#NAV</code>.
+  Click a tab — or a layer key inside the diagram — to switch layers.
+  Each layer links directly, e.g. <code>#NAV</code>.
 </footer>
 <script>
   // Display names for known layers; anything not listed falls back to its raw name.
@@ -134,19 +140,37 @@
   const ALL = "__all__";
 
   const tabsEl = document.getElementById("tabs");
-  const imgEl = document.getElementById("layer-img");
+  const panelEl = document.getElementById("panel");
+  const svgCache = new Map();
 
-  function select(layer, layers) {
+  async function loadSvg(src) {
+    if (!svgCache.has(src)) {
+      const res = await fetch(src);
+      if (!res.ok) throw new Error(res.status + " for " + src);
+      svgCache.set(src, await res.text());
+    }
+    return svgCache.get(src);
+  }
+
+  async function select(layer, layers) {
     if (!layers.includes(layer) && layer !== ALL) layer = layers[0];
     for (const btn of tabsEl.children) {
       btn.setAttribute("aria-selected", String(btn.dataset.layer === layer));
     }
-    if (layer === ALL) {
-      imgEl.src = "glove80.svg";
-      imgEl.alt = "All keymap layers";
-    } else {
-      imgEl.src = "glove80_" + layer + ".svg";
-      imgEl.alt = (NICE_NAMES[layer] || layer) + " layer";
+    const src = layer === ALL ? "glove80.svg" : "glove80_" + layer + ".svg";
+    panelEl.innerHTML = await loadSvg(src);
+    const svg = panelEl.querySelector("svg");
+    svg.removeAttribute("width");
+    svg.removeAttribute("height");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", layer === ALL ? "All keymap layers" : (NICE_NAMES[layer] || layer) + " layer");
+    // Make legends that name a layer clickable, jumping to that layer's tab.
+    for (const t of svg.querySelectorAll("text")) {
+      const name = t.textContent.trim();
+      if (layers.includes(name) && name !== layer) {
+        t.classList.add("layer-link");
+        t.addEventListener("click", () => select(name, layers));
+      }
     }
     history.replaceState(null, "", layer === layers[0] ? "#" : "#" + layer);
   }

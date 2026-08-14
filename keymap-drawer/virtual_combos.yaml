@@ -1,0 +1,27 @@
+# "Virtual combos" drawn onto the per-layer SVGs to indicate layers that are
+# reached by holding several keys together (conditional layers / nested holds).
+# These are not real ZMK combos; they are merged into the parsed keymap YAML
+# at draw time (see the draw-layers job in .github/workflows/draw-keymaps.yml).
+#
+# NOTE: p: entries are key position indices. If the thumb-cluster layout or
+# the position of SUB/SUP inside the NAV layer changes, update them here.
+combos:
+  # conditional layer: SYM + NAV -> GREEK
+  - p: [69, 73]
+    k: GREEK
+    l: [Base]
+    align: top
+    offset: 0.3
+  # conditional layer: SYM + WNDWMGMT -> FNCYZNS
+  - p: [70, 73]
+    k: FNCYZNS
+    l: [Base]
+    align: bottom
+    offset: 0.3
+  # nested hold: NAV held, then SUP/SUB inside the NAV layer
+  - p: [69, 68]
+    k: SUP
+    l: [Base]
+  - p: [69, 67]
+    k: SUB
+    l: [Base]
