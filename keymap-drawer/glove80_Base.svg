@@ -68,25 +68,25 @@ text.footer {
 }
 
 /* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
     font-size: 11px;
 }
 
-text.hold {
+text.hold, text.bl, text.br {
     text-anchor: middle;
     dominant-baseline: auto;
 }
 
-text.shifted {
+text.shifted, text.tl, text.tr {
     text-anchor: middle;
     dominant-baseline: hanging;
 }
 
-text.left {
+text.left, text.tl, text.bl {
     text-anchor: start;
 }
 
-text.right {
+text.right, text.tr, text.br {
     text-anchor: end;
 }
 
@@ -436,6 +436,28 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g class="combo combopos-0">
+<path d="M477,301 h-156 a6.0,6.0 0 0 0 -6.0,6.0 v21" class="combo"/>
+<path d="M477,301 h156 a6.0,6.0 0 0 1 6.0,6.0 v53" class="combo"/>
+<rect rx="6" ry="6" x="463" y="288" width="28" height="26" class="combo"/>
+<text x="477" y="301" class="combo tap">GREEK</text>
+</g>
+<g class="combo combopos-1">
+<path d="M504,424 h-129 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<path d="M504,424 h129 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
+<rect rx="6" ry="6" x="490" y="411" width="28" height="26" class="combo"/>
+<text x="504" y="424" class="combo tap">FNCYZNS</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="269" y="314" width="28" height="26" class="combo"/>
+<text x="283" y="327" class="combo tap">SUP</text>
+</g>
+<g class="combo combopos-3">
+<path d="M255,327 l41,14" class="combo"/>
+<path d="M255,327 l-41,-14" class="combo"/>
+<rect rx="6" ry="6" x="241" y="314" width="28" height="26" class="combo"/>
+<text x="255" y="327" class="combo tap">SUB</text>
 </g>
 </g>
 </g>
