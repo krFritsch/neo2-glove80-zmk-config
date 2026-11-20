@@ -230,6 +230,17 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
+        
+        
+        
+        win0: window_0 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW0_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N0>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
         win1: window_1 {
             compatible = "zmk,behavior-tri-state";
             label = "WINDOW1_SWAPPER";
@@ -302,11 +313,83 @@
             ignored-key-positions = <1>;
         };
         
-        win0: window_0 {
+        win10: window_10 {
             compatible = "zmk,behavior-tri-state";
             label = "WINDOW0_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N0>, <&kt LGUI>;
+            bindings = <&kt LGUI>,<&kt LALT>, <&kp N0>, <&kt LALT>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win11: window_11 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW1_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N1>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win12: window_12 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW2_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N2>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win13: window_13 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW3_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N3>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win14: window_14 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW4_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N4>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win15: window_15 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW5_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N5>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win16: window_16 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW6_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N6>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win17: window_17 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW7_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N7>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win18: window_18 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW8_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N8>, <&kt LGUI>;
+            ignored-key-positions = <1>;
+        };
+        
+        win19: window_19 {
+            compatible = "zmk,behavior-tri-state";
+            label = "WINDOW9_SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp N9>, <&kt LGUI>;
             ignored-key-positions = <1>;
         };
 
@@ -645,7 +728,7 @@
             &trans            &trans              &trans              &trans            &trans               &trans                                                                &trans           &trans   &trans   &trans   &trans   &trans
             &kp LA(F4)        &win1               &win2               &win3             &win4                &win5                                                                 &kp LG(LS(F15))  &kp F9   &kp F10  &kp F11  &kp F12  &trans
             &kp LG(TAB)       &win6               &win7               &win8             &win9                &win0                                                                 &kp F13          &kp F5   &kp F6   &kp F7   &kp F8   &kp LG(F12)
-            &trans            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(PG_DN)  &trans  &trans  &trans  /*|*/  &trans  &trans  &trans  &kp LG(F15)      &kp F1   &kp F2   &kp F3   &kp F4   &trans
+            &trans            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &win10         &trans  &trans  &trans  /*|*/  &trans  &trans  &trans  &kp LG(F15)      &kp F1   &kp F2   &kp F3   &kp F4   &trans
             &trans            &trans              &trans              &trans            &trans                              &trans  &trans  &trans  /*|*/  &trans  &trans  &trans                   &trans   &trans   &trans   &trans   &trans
             >;
         };
