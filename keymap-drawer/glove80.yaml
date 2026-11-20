@@ -255,11 +255,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&win19'
-  - '&win18'
-  - '&win17'
-  - '&win16'
   - '&win15'
+  - '&win16'
+  - '&win17'
+  - '&win18'
+  - '&win19'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -291,11 +291,11 @@ layers:
   - F8
   - Gui+F12
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+DOWN ARROW
-  - Gui+UP ARROW
-  - Gui+RIGHT ARROW
   - '&win10'
+  - '&win11'
+  - '&win12'
+  - '&win13'
+  - '&win14'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,10 +309,10 @@ layers:
   - F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&win14'
-  - '&win13'
-  - '&win12'
-  - '&win11'
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+UP ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
