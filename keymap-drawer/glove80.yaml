@@ -295,7 +295,7 @@ layers:
   - Gui+DOWN ARROW
   - Gui+UP ARROW
   - Gui+RIGHT ARROW
-  - Gui+PG DN
+  - '&win10'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
