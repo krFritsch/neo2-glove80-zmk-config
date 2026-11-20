@@ -315,81 +315,81 @@
         
         win10: window_10 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW0_SWAPPER";
+            label = "WINDOW10_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>,<&kt LALT>, <&kp N0>, <&kt LALT>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N1>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win11: window_11 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW1_SWAPPER";
+            label = "WINDOW11_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N1>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N2>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win12: window_12 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW2_SWAPPER";
+            label = "WINDOW12_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N2>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N3>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win13: window_13 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW3_SWAPPER";
+            label = "WINDOW13_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N3>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N4>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win14: window_14 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW4_SWAPPER";
+            label = "WINDOW14_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N4>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N5>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win15: window_15 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW5_SWAPPER";
+            label = "WINDOW15_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N5>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N6>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win16: window_16 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW6_SWAPPER";
+            label = "WINDOW16_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N6>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N7>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win17: window_17 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW7_SWAPPER";
+            label = "WINDOW17_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N7>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N8>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win18: window_18 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW8_SWAPPER";
+            label = "WINDOW18_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N8>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N9>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
         
         win19: window_19 {
             compatible = "zmk,behavior-tri-state";
-            label = "WINDOW9_SWAPPER";
+            label = "WINDOW19_SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LGUI>, <&kp N9>, <&kt LGUI>;
+            bindings = <&kt LG(LALT)>, <&kp N0>, <&kt LG(LALT)>;
             ignored-key-positions = <1>;
         };
 
